@@ -1,4 +1,4 @@
-# *NoRA*
+# NoRA
 This repository is the official implementation of NoRA: Normal-Like Reconstruction From Anomaly For Effective Tabular Anomaly Detection. 
 
 ## Requirements
