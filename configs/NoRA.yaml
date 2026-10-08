@@ -1,0 +1,32 @@
+default: 
+  train_config:
+    data_dir: 'Data/'
+    epochs: 200
+    learning_rate: 0.01
+    sche_gamma: 0.95
+    batch_size: 128
+    random_seed: 42
+    num_workers: 0
+    preprocess: 'standard'
+    patience: 10
+    min_delta: 0
+  model_config:
+    num_features: null
+    hidden_dim: 32
+    depth: 4
+    num_heads: 4
+    mlp_ratio: 4.0
+    dropout_prob: 0.0
+    temperature: 0.2
+    dacl_alpha: 0.9
+    dacl_beta: 0.8
+    contra_loss_weight: 0.05
+
+breastw:
+  hidden_dim: 32
+  learning_rate: 0.005
+  contra_loss_weight: 0.05
+  dacl_alpha: 0.9
+  dacl_beta: 0.8
+  contra_loss_weight: 0.05
+  batch_size: 64
